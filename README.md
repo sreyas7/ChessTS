@@ -1,4 +1,4 @@
-# CHESS
+# ChessTS
 
 The game of chess written in TypeScript (still working on it!!!)
 
