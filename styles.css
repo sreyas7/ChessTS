@@ -1,0 +1,53 @@
+html {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container .player-name {
+    font-size: 30px;
+    font-weight: 900;
+}
+
+#chess-board {
+    display: flex;
+    flex-wrap: wrap;
+    width: 640px;
+    height: 640px;
+    border: 1px solid black;
+}
+
+#chess-board .square {
+    width: 80px;
+    height: 80px;
+}
+
+.black {
+    background-color: black;
+}
+
+.white {
+    background-color: white;
+}
+
+.square.active {
+    background-color: rgb(69, 252, 191);
+}
+
+.square svg {
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+}
+
+.one svg {
+    fill: rgb(204, 97, 97);
+}
+
+.two svg {
+    fill: rgb(124, 163, 150);
+}
